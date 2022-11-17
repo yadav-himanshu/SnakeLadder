@@ -13,6 +13,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         //FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        //hello
         root=new Group();
         Scene scene = new Scene(root, 800, 500);
         stage.setTitle("Snake and Ladder");
